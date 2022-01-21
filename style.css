@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('spider.jfif');
+    color: #fff;
+}
+.left{
+    display: inline-block;
+    /*border: 2px solid red;*/
+    position:absolute;
+    left: 34px;
+    top:12px;
+}
+.left img{
+    width: 90px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    display: block;
+    /*border: 2px solid green;*/    
+    width: 33%;
+    margin:25px auto;
+
+}
+.right{
+    position: absolute;
+    top:30px;
+    right:27px;
+    display: inline-block;
+    /*border: 2px solid yellow;*/
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 5px;
+}
+.navbar li a:hover, .navbar li a:active{
+    color: burlywood;
+}
+.btn{
+    margin: 0px 9px;
+    color: #fff;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(48, 46, 46);
+}
+.container{
+    border:2px solid white;
+    margin: 75px 25px;
+    padding: 75px 2px;
+    width: 33%;
+    border-radius: 20px;
+}
+.form-group input{
+    font-family: cursive;
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 20px;
+    border-radius: 26px;
+}
+.container h1{
+     text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin:2px auto;
+}
